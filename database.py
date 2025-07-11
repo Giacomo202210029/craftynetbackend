@@ -2,7 +2,7 @@
 from motor.motor_asyncio import AsyncIOMotorClient
 from pymongo.errors import ConnectionFailure
 
-MONGO_URI = os.getenv("MONGO_URI", "mongodb://admin:password123@20.107.242.38:27018/admin")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb://admin:password123@20.119.98.41:27018/admin")
 
 try:
     client = AsyncIOMotorClient(MONGO_URI)
